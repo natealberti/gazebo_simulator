@@ -1,0 +1,14 @@
+<sdf version="1.6">
+  <model name="fragments_5lb">
+    <link name="link">    
+    <visual name='visual'>
+      <geometry>
+        <mesh>
+          <uri>model://fragments_5lb/meshes/fragments_5lb.stl</uri>
+	  <scale>0.01 0.01 0.01</scale>
+        </mesh>
+      </geometry>
+    </visual>
+    </link>
+  </model>
+</sdf>

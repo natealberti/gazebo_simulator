@@ -1,0 +1,14 @@
+<sdf version="1.6">
+  <model name="push_button">
+    <link name="link">    
+    <visual name='visual'>
+      <geometry>
+        <mesh>
+          <uri>model://push_button/meshes/push_button.stl</uri>
+	  <scale>0.01 0.01 0.01</scale>
+        </mesh>
+      </geometry>
+    </visual>
+    </link>
+  </model>
+</sdf>

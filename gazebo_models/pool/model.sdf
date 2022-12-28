@@ -1,0 +1,14 @@
+<sdf version="1.6">
+  <model name="pool">
+    <link name="link">    
+    <visual name='visual'>
+      <geometry>
+        <mesh>
+          <uri>model://pool/meshes/pool.stl</uri>
+	  <scale>0.01 0.01 0.01</scale>
+        </mesh>
+      </geometry>
+    </visual>
+    </link>
+  </model>
+</sdf>

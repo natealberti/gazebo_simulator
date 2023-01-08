@@ -53,6 +53,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://pool/meshes/pool.stl</uri>
+              <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -187,6 +197,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://ruin/meshes/ruin.stl</uri>
+              <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -215,6 +235,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://chest/meshes/chest.stl</uri>
+	            <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -243,6 +273,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://fragments_10lb/meshes/fragments_10lb.stl</uri>
+              <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -271,6 +311,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://fragments_2lb/meshes/fragments_2lb.stl</uri>
+	            <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -299,6 +349,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://fragments_5lb/meshes/fragments_5lb.stl</uri>
+              <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -327,6 +387,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://relic/meshes/relic.stl</uri>
+              <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -355,6 +425,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://push_button/meshes/push_button.stl</uri>
+              <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>
@@ -383,6 +463,16 @@
             </mesh>
           </geometry>
         </visual>
+
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://lever/meshes/lever.stl</uri>
+              <scale>0.01 0.01 0.01</scale>
+            </mesh>
+          </geometry>
+        </collision>
+
         <self_collide>0</self_collide>
         <inertial>
           <pose>0 0 0 0 -0 0</pose>

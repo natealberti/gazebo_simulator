@@ -9,6 +9,16 @@
         </mesh>
       </geometry>
     </visual>
+
+    <collision name='collision'>
+      <geometry>
+        <mesh>
+          <uri>model://lever/meshes/lever.stl</uri>
+	        <scale>0.01 0.01 0.01</scale>
+        </mesh>
+      </geometry>
+    </collision>
+
     </link>
   </model>
 </sdf>
